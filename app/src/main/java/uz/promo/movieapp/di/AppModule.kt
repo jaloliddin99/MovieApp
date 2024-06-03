@@ -4,8 +4,6 @@ import android.content.Context
 import com.chuckerteam.chucker.api.ChuckerCollector
 import com.chuckerteam.chucker.api.ChuckerInterceptor
 import com.chuckerteam.chucker.api.RetentionManager
-import dagger.Binds
-import uz.promo.movieapp.BuildConfig
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -15,9 +13,8 @@ import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import uz.promo.movieapp.BuildConfig
 import uz.promo.movieapp.data.remote.ApiInterface
-import uz.promo.movieapp.data.repository.NetworkRepositoryImpl
-import uz.promo.movieapp.domain.repository.NetworkRepository
 import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
 

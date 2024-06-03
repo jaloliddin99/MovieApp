@@ -1,4 +1,4 @@
-package org.don.onlineTrade.utils.runTimePermission
+package uz.promo.movieapp.utils.runTimePermission
 
 interface OnRunTimePermissionListener {
 
