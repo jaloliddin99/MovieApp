@@ -75,7 +75,7 @@ fun MultipleChoiceDialog(
 
     ContentWrapper(text = "Select Language(s)") {
         OutlinedCard(
-            modifier = Modifier
+            modifier = modifier
                 .fillMaxWidth()
                 .padding(bottom = 16.dp)
                 .height(56.dp)
@@ -86,8 +86,7 @@ fun MultipleChoiceDialog(
         ) {
             LazyRow(
                 modifier = Modifier
-                    .fillMaxWidth()
-                    .fillMaxHeight()
+                    .fillMaxSize()
                     .padding(12.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
